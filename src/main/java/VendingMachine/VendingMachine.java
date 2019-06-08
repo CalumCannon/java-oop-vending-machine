@@ -69,4 +69,8 @@ public class VendingMachine {
         //coin return? ask for more money?
         return null;
     }
+
+    public int getSelectedPrice() {
+       return this.selected.getProduct().getPrice();
+    }
 }
