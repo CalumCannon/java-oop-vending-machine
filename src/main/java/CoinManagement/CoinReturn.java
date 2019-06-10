@@ -1,6 +1,7 @@
 package CoinManagement;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class CoinReturn {
 
@@ -20,6 +21,12 @@ public class CoinReturn {
            value += coin.getValue();
        }
        return value;
+   }
+
+   public List<CoinType> returnCoins(){
+       List<CoinType> returnList = this.coins;
+       this.coins = null;
+       return returnList;
    }
 
 }

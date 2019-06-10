@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="738cbc38-1e4e-44f6-ad6a-e01c8f2e5b1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CoinManagement/CoinReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CoinManagement/CoinReturn.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,12 +82,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CoinManagement/CoinReturn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="340">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="36" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#138#139#0" expanded="true" />
                 <element signature="e#185#186#0" expanded="true" />
                 <element signature="e#234#235#0" expanded="true" />
@@ -96,18 +98,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/VendingMachine/VendingMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+            <state relative-caret-position="382">
+              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#addCoin#0;class#VendingMachine#0" />
                 <element signature="method#getCoinsValue#0;class#VendingMachine#0" />
                 <element signature="method#findCode#0;class#VendingMachine#0" />
                 <element signature="method#setSelected#0;class#VendingMachine#0" />
-                <element signature="method#purchaseSelected#0;class#VendingMachine#0" />
                 <element signature="e#1825#1826#0" expanded="true" />
                 <element signature="e#1884#1885#0" expanded="true" />
               </folding>
@@ -139,6 +140,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>coins</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -153,12 +159,12 @@
         <option value="$PROJECT_DIR$/src/main/java/Drawer/Drawer.java" />
         <option value="$PROJECT_DIR$/src/main/java/CoinManagement/Coin.java" />
         <option value="$PROJECT_DIR$/src/main/java/CoinManagement/CoinType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CoinManagement/CoinReturn.java" />
         <option value="$PROJECT_DIR$/src/main/java/Products/Crisp.java" />
         <option value="$PROJECT_DIR$/src/main/java/Products/Sweet.java" />
         <option value="$PROJECT_DIR$/src/main/java/Products/Drink.java" />
         <option value="$PROJECT_DIR$/src/test/java/VendingMachineTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/VendingMachine/VendingMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CoinManagement/CoinReturn.java" />
       </list>
     </option>
   </component>
@@ -253,7 +259,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560151812063" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560152130141" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RunDashboard">
@@ -421,19 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CoinManagement/CoinReturn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="22" selection-end-column="4" />
-          <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Drawer/Drawer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -507,17 +500,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/VendingMachine/VendingMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        <state relative-caret-position="382">
+          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#addCoin#0;class#VendingMachine#0" />
             <element signature="method#getCoinsValue#0;class#VendingMachine#0" />
             <element signature="method#findCode#0;class#VendingMachine#0" />
             <element signature="method#setSelected#0;class#VendingMachine#0" />
-            <element signature="method#purchaseSelected#0;class#VendingMachine#0" />
             <element signature="e#1825#1826#0" expanded="true" />
             <element signature="e#1884#1885#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CoinManagement/CoinReturn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
           </folding>
         </state>
       </provider>
