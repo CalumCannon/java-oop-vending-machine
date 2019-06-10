@@ -16,6 +16,10 @@ public class CoinReturn {
    }
 
    public int getCoinsValue(){
+       if(coins.size() == 0){
+           return 0;
+       }
+
        int value = 0;
        for(CoinType coin : coins){
            value += coin.getValue();
@@ -25,7 +29,7 @@ public class CoinReturn {
 
    public List<CoinType> returnCoins(){
        List<CoinType> returnList = this.coins;
-       this.coins = null;
+       this.coins.clear();
        return returnList;
    }
 

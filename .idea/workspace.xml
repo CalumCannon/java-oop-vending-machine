@@ -4,6 +4,7 @@
     <list default="true" id="738cbc38-1e4e-44f6-ad6a-e01c8f2e5b1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CoinManagement/CoinReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CoinManagement/CoinReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CoinReturnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CoinReturnTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CoinManagement/CoinReturn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" column="36" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="36" />
+            <state relative-caret-position="248">
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#138#139#0" expanded="true" />
@@ -96,6 +97,24 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CoinReturnTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#561#571#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -164,6 +183,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Products/Drink.java" />
         <option value="$PROJECT_DIR$/src/test/java/VendingMachineTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/VendingMachine/VendingMachine.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/CoinReturnTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/CoinManagement/CoinReturn.java" />
       </list>
     </option>
@@ -182,7 +203,9 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -206,43 +229,6 @@
               <item name="VendingMachine" type="b2602c69:ProjectViewProjectNode" />
               <item name="VendingMachine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VendingMachine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VendingMachine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VendingMachine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VendingMachine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="CoinManagement" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VendingMachine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VendingMachine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Drawer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VendingMachine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VendingMachine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Products" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VendingMachine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VendingMachine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -259,7 +245,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560152130141" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560152655423" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RunDashboard">
@@ -274,11 +260,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VendingMachineTest.onlyReturnsProductIfEnoughMoneyHasBeenEntered">
-    <configuration name="VendingMachineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CoinReturnTest.coinReturnIsEmptyAfterReturningCoins">
+    <configuration name="CoinReturnTest.canReturnCoins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VendingMachine" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VendingMachineTest" />
+      <option name="MAIN_CLASS_NAME" value="CoinReturnTest" />
+      <option name="METHOD_NAME" value="canReturnCoins" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoinReturnTest.coinReturnIsEmptyAfterReturningCoins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VendingMachine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CoinReturnTest" />
+      <option name="METHOD_NAME" value="coinReturnIsEmptyAfterReturningCoins" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -315,10 +313,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CoinReturnTest.coinReturnIsEmptyAfterReturningCoins" />
+        <item itemvalue="JUnit.CoinReturnTest.canReturnCoins" />
         <item itemvalue="JUnit.VendingMachineTest.onlyReturnsProductIfEnoughMoneyHasBeenEntered" />
         <item itemvalue="JUnit.VendingMachineTest.canMakePurchase" />
         <item itemvalue="JUnit.VendingMachineTest.canMakeSelection" />
-        <item itemvalue="JUnit.VendingMachineTest" />
       </list>
     </recent_temporary>
   </component>
@@ -336,9 +335,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VendingMachineTest - 2019.06.08 at 09h 08m 04s.xml">
-      <configuration name="VendingMachineTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="VendingMachineTest_canMakeSelection - 2019.06.08 at 09h 41m 56s.xml">
       <configuration name="VendingMachineTest.canMakeSelection" configurationId="JUnit" />
     </history-entry>
@@ -350,6 +346,24 @@
     </history-entry>
     <history-entry file="VendingMachineTest_onlyReturnsProductIfEnoughMoneyHasBeenEntered - 2019.06.08 at 09h 45m 09s.xml">
       <configuration name="VendingMachineTest.onlyReturnsProductIfEnoughMoneyHasBeenEntered" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoinReturnTest_canReturnCoins - 2019.06.10 at 08h 38m 31s.xml">
+      <configuration name="CoinReturnTest.canReturnCoins" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoinReturnTest_canReturnCoins - 2019.06.10 at 08h 39m 56s.xml">
+      <configuration name="CoinReturnTest.canReturnCoins" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoinReturnTest_canReturnCoins - 2019.06.10 at 08h 41m 13s.xml">
+      <configuration name="CoinReturnTest.canReturnCoins" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoinReturnTest_coinReturnIsEmptyAfterReturningCoins - 2019.06.10 at 08h 42m 24s.xml">
+      <configuration name="CoinReturnTest.coinReturnIsEmptyAfterReturningCoins" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoinReturnTest_coinReturnIsEmptyAfterReturningCoins - 2019.06.10 at 08h 43m 13s.xml">
+      <configuration name="CoinReturnTest.coinReturnIsEmptyAfterReturningCoins" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoinReturnTest_coinReturnIsEmptyAfterReturningCoins - 2019.06.10 at 08h 43m 54s.xml">
+      <configuration name="CoinReturnTest.coinReturnIsEmptyAfterReturningCoins" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -364,12 +378,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32923833" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32923833" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32923833" />
       <window_info anchor="bottom" id="Messages" weight="0.32923833" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32923833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32923833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -514,10 +528,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CoinReturnTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#561#571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CoinManagement/CoinReturn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="36" />
+        <state relative-caret-position="248">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#138#139#0" expanded="true" />
